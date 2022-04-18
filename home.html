@@ -1,26 +1,84 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
-	<link rel="stylesheet" href="./css/style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-	<img src="./img/bmo.gif" alt="">
-	<p>BMO (abbreviated from "Be MOre," phonetically spelled "Beemo",
-		also referred to as Moe Mastro "Llabtoof" Giovanni Jr. and
-		called the "New King of Ooo" in the future) is one of the
-		main characters of <strong>Adventure Time</strong> and also the titular main
-		protagonist of the <strong>Distant Lands episode of the same name</strong>.
-		BMO is a living prototype video game console system, portable
-		electrical outlet, computer, music player, VCR, video player,
-		video editor, roommate, camera, alarm clock, toaster,
-		flashlight, strobe light, skateboarder, soccer player,
-		tape player, chef, detective and friend who is owned by Finn.
-		He makes his appearance in the title scene of the Theme Song of
-		every episode of Adventure Time, just as Finn and Jake pound
-		their fists together. BMO is characterized as a loyal, trusting
-		and helpful robot who is protective of Finn and Jake.</p>
+    <div class="respo"></div>
+<div class="all">
+
+    <header>
+        <div class="head">
+            <img class="img1" src="./img/bmo.gif" alt="">
+            <h1>ashetemele</h1>
+            <div class="sub">Este es un sitio creados (casi) solo con HTML en <img class="img2" src="./img/heroku.svg" alt=""></div>
+        </div>
+    </header>
+    </div>
+
+    <section class="page">
+        <h2>Implementar una página HTML estática en Heroku</h2>
+        <p class="t1">basado en: <a href="https://medium.com/@agavitalis/how-to-deploy-a-simple-static-html-website-on-heroku-492697238e48">https://medium.com/@agavitalis/how-to-deploy-a-simple-static-html-website-on-heroku-492697238e48</a></p>
+
+
+        <br>
+
+        <p><b>Heroku es un de servicios en la nube.</b></p>
+
+        <p>Proporciona <b>alojamiento para apps</b> creadas con tecnologías como:</p>
+
+        <ul class="lang-list">
+            <li class="node"> <img src="./img/node.svg" alt="">Node.js</li>
+            <li class="ruby"> <img src="./img/ruby.svg" alt="">Ruby</li>
+            <li class="java"> <img src="./img/duke.svg" alt="">Java</li>
+            <li class="php"> <img src="./img/php.svg" alt="">PHP</li>
+            <li class="python"> <img src="./img/python.svg" alt="">Python</li>
+            <li class="go"> <img src="./img/go.svg" alt="">Go</li>
+            <li class="scala"> <img src="./img/scala.png" alt="">Scala</li>
+            <li class="clojure"> <img src="./img/clojure.svg" alt="">Clojure</li>
+        </ul>
+
+
+        <p><b>Requisitos para implementar una aplicación en Heroku</b></p>
+
+        <ul class="note">
+            <li>Una cuenta de Github</li>
+            <li>Una cuenta de Heroku</li>
+            <li>Git instalado en computador</li>
+            <li>CLI de Heroku instalada en computador</li>
+        </ul>
+
+        <p><b>Heroku solo aloja y admite aplicaciones</b> y no páginas estáticas,
+        para implementar nuestra página html estática haremos que Heroku
+        lea nuestro sitio web es una aplicación PHP.</p>
+
+        <p><b>Pasos:</b></p>
+        <p class="pass">1) Crear un archivo <span class="ide1">index.php</span> con: <span class="ide2">&lt;?php include_once(“home.html”); ?&gt;</span></p>
+        <p class="pass">2) Crear un archivo <span class="ide1">home.html</span> con: <span class="ide2">&lt;h1&gt;hola heroku&lt;/h1&gt;</span></p>
+        <p class="pass">3) Crear un archivo <span class="ide1">composer.json</span> con <span class="ide2">{}</span>para que se reconozca como una aplicación PHP</li>
+        <p class="pass"><b>En la terminal o bash:</b></p>
+        <p class="pass">4) <code>git init</code> iniciar git</p>
+        <p class="pass">5) <code>git add .</code> agregar cambios</p>
+        <p class="pass">6) <code>git commit -m "desplegando"</code> comitear cambios</p>
+        <p class="pass">7) <code>Heroku login</code> autetificarse en Heroku</p>
+        <p class="pass">8) <code>heroku apps:create NOMBRE_DE_APP</code> crear app en Heroku</span></p>
+        <p class="pass">9) <code>git push heroku master</code> subir cambios a Heroku</p>
+        <p class="pass">10) Aquí está el enlace de tu app: <b class="alert1">https://NOMBRE_DE_APP.herokuapp.com</b></p>
+        <p class="pass">11) <code>git add .
+git commit -m "mensaje sobre cambios"
+git push heroku master
+</code>actualizar</p>
+
+        </div>
+
+
+    </section>
+    <footer>
+    <a href="https://www.idd.cl/">idd.cl</a> 2022
+    </footer>
+</div>
 </body>
 </html>
