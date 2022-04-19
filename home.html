@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" type="image/png" href="./img/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="respo"></div>
+<div class="respo"></div>
 <div class="all">
+
 
     <header>
         <div class="head">
@@ -58,7 +59,7 @@
         para implementar nuestra página html estática haremos que Heroku
         interprete nuestro sitio web como una aplicación PHP.</p>
 
-        <p><b>Pasos:</b></p>
+        <h3><b>Pasos</b></h3>
         <p class="pass">1) Crear un archivo <span class="ide1">index.php</span> con: <span class="ide2">&lt;?php include_once(“home.html”); ?&gt;</span></p>
         <p class="pass">2) Crear un archivo <span class="ide1">home.html</span> con: <span class="ide2">&lt;h1&gt;hola heroku&lt;/h1&gt;</span></p>
         <p class="pass">3) Crear un archivo <span class="ide1">composer.json</span> con <span class="ide2">{}</span>para que se reconozca como una aplicación PHP</li>
@@ -80,7 +81,31 @@ git push heroku master
 
     </section>
     <footer>
-    <a href="https://www.idd.cl/">idd.cl</a> 2022
+
+        <p>Comparte en:</p>
+        <ul class="share">
+            <li>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://ashetemele.herokuapp.com/">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/intent/tweet?text= Implementar%20una%20p%C3%A1gina%20HTML%20est%C3%A1tica%20en%20Heroku&url=https://ashetemele.herokuapp.com/&hashtags=DesarrolloWeb">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://api.whatsapp.com/send?text=Implementar%20una%20p%C3%A1gina%20HTML%20est%C3%A1tica%20en%20Heroku%20https://ashetemele.herokuapp.com/">
+                    <i class="fa fa-whatsapp"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://ashetemele.herokuapp.com/">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+        <a href="https://www.idd.cl/">idd.cl</a> 2022
     </footer>
 </div>
 </body>
